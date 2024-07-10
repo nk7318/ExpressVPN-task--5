@@ -1,0 +1,148 @@
+*{
+  margin: 0;
+  padding:0
+}
+
+
+
+
+.cardLayout{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+
+/************************************************************ homePage ********************************************/
+
+
+.homebody {
+    background-image:url("../Resources/homeimage1.avif");
+    height: 100%;
+    width:100%;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-bottom: 8%;
+  }
+
+.whatvpn{
+  background-color: rgb(244, 236, 224);
+  color:black;
+  width:100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5%;
+  padding-bottom: 5%;
+}  
+.rounded-video {
+  border-radius: 10px; 
+  width:370 ;
+  height:208
+}
+
+.map{
+  margin-top: 5%;
+  padding-top: 2%;
+  padding-bottom: 5%;
+  color:black;
+  background-image: url("../Resources/icons/homepage/background1.avif");
+  width:100%;
+  height:100%;
+  background-size: cover;
+}
+
+.benefits{
+  background-color: rgb(240, 231, 220);
+}
+
+.working{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10%;
+}
+
+
+
+.HomepageAnimation{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.card{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding:5%;
+  border-radius: 20px;
+}
+
+
+/********************************************** offerPage ************************************************************/
+
+.offerbody{
+  background-image:url("../Resources/offerimage.avif");
+  height: 100%;
+  width:100%;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.offerAnimation:hover{
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  cursor: pointer;
+  border-radius: 30px;
+  transition: 0.3s ease-in-out;
+}
+
+.deviceAnimation:hover{
+  color: rgb(35, 144, 31);
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
+  transform: translateX(2px);
+}
+
+
+/********************************************** downloadPage ************************************************************/
+
+.downloadbody{
+  background-image:url("../Resources/download.avif");
+  height: 100%;
+  width:100%;
+  background-size: cover;
+  background-attachment: fixed; 
+  padding-bottom: 8%;
+}
+
+
+/************************************************ support ****************************************************************/
+.supportbody{
+  background-image:url("../Resources/support.avif");
+  height: 100%;
+  width:100%;
+  background-size: cover;
+  background-attachment: fixed; 
+  padding-bottom: 8%;
+}
+.billCard{
+  box-shadow: #024273  0px 20px 30px -10px;
+  display:"flex" ;
+  flex-direction:"column"; 
+  align-items:"center";
+  justify-content:"center";
+  border-radius: 20px;
+ 
+}
+
+.finalBillCard{
+  box-shadow: #024273  0px 20px 30px -10px; 
+  display:"flex" ;
+  flex-direction:"column"; 
+}

@@ -1,0 +1,53 @@
+{
+  "users": [
+    {
+      "name": "Jitu",
+      "username": "jitu@222",
+      "email": "ajit@gmail.com",
+      "password": "12345",
+      "id": 1
+    },
+    {
+      "name": "Ajit",
+      "username": "ajit@45",
+      "email": "jitu@gmail.com",
+      "password": "34567",
+      "id": 2
+    },
+    {
+      "name": "Prayas",
+      "username": "pro@34",
+      "email": "parays@34",
+      "password": "56565656",
+      "id": 3
+    },
+    {
+      "name": "Shreya",
+      "username": "shre@67",
+      "email": "ss@07",
+      "password": "123789",
+      "id": 4
+    },
+    {
+      "name": "Micki",
+      "username": "mki@56",
+      "email": "mki@gmail.com",
+      "password": "6565656889",
+      "id": 6
+    },
+    {
+      "name": "Raj",
+      "username": "raj@69",
+      "email": "raj@gmail.com",
+      "password": "69696969",
+      "id": 7
+    },
+    {
+      "name": "Anorak",
+      "username": "anor@2002",
+      "email": "anorak@gmail.com",
+      "password": "200200200",
+      "id": 8
+    }
+  ]
+}
